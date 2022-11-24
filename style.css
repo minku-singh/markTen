@@ -1,0 +1,33 @@
+*{
+    font-family: cursive;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: orange;
+}
+
+input{
+    border: 2px solid orange;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    background-color: orange;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid orange;
+}
+
+table, th, td{
+    border: 2px solid orange;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px 30px;
+}
