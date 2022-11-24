@@ -53,3 +53,14 @@ caption{
 .msg{
     display: none;
 }
+
+@media screen and (max-width: 768px){
+    body{
+        width: 80vw;
+    }
+
+    table{
+        transform: rotate(90deg);
+        margin-top: 20rem;
+    }
+}
