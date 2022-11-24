@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Cash Register</title>
 </head>
 <body>
-    
+    <h1>Cash Register Manager</h1>
+
+    <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+
+    <h5>Bill Amount:</h5>
+    <input id="bill-amount" type="text">
+
+    <h5>Cash Given:</h5>
+    <input id="cash-given" type="text">
+
+    <button id = "check">CHECK</button>
+
+    <div class="msg"></div>
+
+    <table>
+        <caption>Return Change</caption>
+        <tr>
+            <th>No of Notes</th>
+            <td class="each-note">0</td>
+            <td class="each-note">0</td>
+            <td class="each-note">0</td>
+            <td class="each-note">0</td>
+            <td class="each-note">0</td>
+            <td class="each-note">0</td>
+            <td class="each-note">0</td>
+        </tr>
+        <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <script src="./index.js"></script>
 </body>
 </html>
