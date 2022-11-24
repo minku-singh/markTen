@@ -53,17 +53,3 @@ caption{
 .msg{
     display: none;
 }
-
-@media screen and (max-width: 768px){
-    body{
-        background-color: red;
-        color: red;
-    }
-    input{
-        width: 80vw;
-    }
-
-    table{
-        transform: rotate(90deg);
-    }
-}
