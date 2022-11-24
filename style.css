@@ -55,13 +55,12 @@ caption{
 }
 
 @media screen and (max-width: 768px){
-    body{
-        margin: auto;
+    input{
         width: 90vw;
     }
-
-    table{
-        transform: rotate(90deg);
-        margin-top: 20rem;
+    th, td{
+        width: 90vw;
+        padding: 2px;
+        text-align: center;
     }
 }
